@@ -1,0 +1,34 @@
+title: ShashForge
+tagline: A daily engineering log on building AI systems
+description: >-
+  Daily notes from the workbench — building, breaking, and shipping AI
+  platforms, agentic systems, and LLM infrastructure. One entry a day,
+  by Shashi Shankar.
+url: "https://shashforge.dev"
+baseurl: ""
+
+author:
+  name: Shashi Shankar
+  email: shashishankar1687@gmail.com
+
+timezone: Europe/Berlin
+
+# Each post lives at /log/<slug>/
+permalink: /log/:title/
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
