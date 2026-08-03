@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/parts.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="wordmark" href="/">shash<span class="spark">⚒</span>forge</a>
+      <nav class="site">
+        <a href="/">log</a>
+        <a href="/about/">about</a>
+        <a href="/feed.xml">rss</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {{ content }}
+  </main>
+  <footer class="site">
+    <div class="wrap">
+      © {{ site.time | date: "%Y" }} {{ site.author.name }} · forged daily · <a href="/feed.xml">rss</a>
+    </div>
+  </footer>
+</body>
+</html>
