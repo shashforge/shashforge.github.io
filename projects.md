@@ -16,7 +16,7 @@ finished than it is.
 **Agent Harness Reference Architecture** <span class="status-badge">designed</span>
 
 The system argued for in
-[the Day 2 essay](/log/day-2-the-model-was-never-the-product/), turned
+[the harness essay](/log/the-model-was-never-the-product/), turned
 into working code: state machine, tool contracts, permission boundaries,
 checkpointing, verifier loops, replay and audit, plus an evaluation
 harness with a failure taxonomy. Repo and case study land here as they're
