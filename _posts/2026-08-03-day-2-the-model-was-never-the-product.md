@@ -4,6 +4,7 @@ title: "The model was never the product"
 day: 2
 date: 2026-08-03
 topics: [agents, harness-engineering, platform]
+status: analysis
 ---
 
 In 2023 I watched AutoGPT burn through $40 of API credits trying to order a
@@ -120,4 +121,3 @@ took the industry three years and a lot of pizza money to admit it.
 
 *Building in this layer too? My inbox is open — details on the
 [about page](/about/).*
-
