@@ -8,23 +8,23 @@ status: meta
 
 Today I bought **shashforge.dev** and lit the forge.
 
-This site is a standing commitment: **one engineering log entry per day**,
-documenting the real work of building AI systems — not hot takes, not
+This site is a standing commitment: **a public log of engineering
+artefacts**, documenting the real work of building AI systems — not hot takes, not
 link roundups. What I designed, what I built, what broke, what I measured,
 and what I'd do differently.
 
-## Why a daily log
+## Why a public log
 
 Three reasons:
 
 1. **Writing is compression.** If I can't explain a design decision in a
    few paragraphs, I don't understand it yet.
-2. **Consistency is the signal.** Anyone can write one great post. A public
-   streak of daily entries is much harder to fake — and much more honest
-   about how engineering actually happens: incrementally.
-3. **The field moves daily, so the log should too.** Agentic systems, LLM
-   serving, evals, retrieval — the ground shifts every week. A daily
-   cadence forces me to stay in contact with the ground.
+2. **Consistency is the signal.** Anyone can write one great post. A
+   steady public stream of artefacts is much harder to fake — and much
+   more honest about how engineering actually happens: incrementally.
+3. **The field moves fast, so the log has to.** Agentic systems, LLM
+   serving, evals, retrieval — the ground shifts every week. Publishing
+   as I build forces me to stay in contact with the ground.
 
 ## What this stack is
 
@@ -45,4 +45,4 @@ system architecture, LLM platform engineering, retrieval done properly,
 and the distributed-systems reality underneath AI products.** Expect
 diagrams, benchmarks, and honest failure reports.
 
-The first entry is the easiest one. See you tomorrow.
+The first entry is the easiest one. More soon.
