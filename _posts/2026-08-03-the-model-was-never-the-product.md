@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The model was never the product"
-day: 2
 date: 2026-08-03
 topics: [agents, harness-engineering, platform]
 status: analysis
