@@ -49,7 +49,7 @@ gap I'm standing in, on purpose.
 
 ## Get in touch
 
-- Email: [shashishankar1687@gmail.com](mailto:shashishankar1687@gmail.com)
+- Email: [shashi@shashforge.dev](mailto:shashi@shashforge.dev)
 - GitHub: [github.com/shashforge](https://github.com/shashforge)
 
 If you're building serious AI products and need someone who thinks in
