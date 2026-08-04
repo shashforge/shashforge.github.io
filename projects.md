@@ -40,4 +40,4 @@ against provider failure.
 ---
 
 More on [GitHub](https://github.com/shashforge). If one of these overlaps
-with a problem you're hiring for, [email me](mailto:shashishankar1687@gmail.com).
+with a problem you're hiring for, [email me](mailto:shashi@shashforge.dev).
