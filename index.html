@@ -37,7 +37,7 @@ layout: default
   </div>
 </div>
 
-<h2 class="log-head">The log <span class="streak">&#9656; {{ site.posts | size }} entries forged</span></h2>
+<h2 class="log-head">The log</h2>
 <p class="log-note">
   One engineering artefact a day &mdash; code, benchmarks, diagrams,
   decisions, failures. Substance over streaks.
@@ -46,7 +46,6 @@ layout: default
 <ul class="log-list">
   {% for post in site.posts %}
   <li>
-    <span class="day">{% if post.day %}Day {{ post.day }}{% endif %}</span>
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <a href="{{ post.url }}">{{ post.title }}</a>
     {% if post.status %}<span class="status-badge">{{ post.status }}</span>{% endif %}
