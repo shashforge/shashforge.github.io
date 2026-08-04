@@ -2,14 +2,46 @@
 layout: default
 ---
 <div class="hero">
-  <h1>The forge is lit.</h1>
+  <p class="kicker">the forge is lit</p>
+  <h1>Shashi Shankar</h1>
+  <p class="role">AI Systems &amp; Platform Architect</p>
   <p class="lede">
-    Daily notes from the workbench — building, breaking, and shipping
-    AI platforms, agentic systems, and LLM infrastructure. One entry a day,
-    every day. Small is fine. Skipping is not.
+    Building production AI platforms, reliable agent systems, and Edge AI
+    infrastructure &mdash; backed by 15+ years in C++, embedded systems,
+    Android/AOSP, AAOS, and automotive platforms.
   </p>
-  <p class="streak">▸ {{ site.posts | size }} {% if site.posts.size == 1 %}day{% else %}days{% endif %} forged</p>
+  <p class="hero-actions">
+    <a href="https://github.com/shashforge">GitHub</a>
+    <a href="/projects/">Projects</a>
+    <a href="/about/">About</a>
+    <a href="mailto:shashishankar1687@gmail.com">Email</a>
+  </p>
 </div>
+
+<div class="cap-grid">
+  <div class="cap">
+    <h3>AI platform</h3>
+    <p>inference gateways &middot; model routing &middot; evaluation &middot; observability &middot; reliability</p>
+  </div>
+  <div class="cap">
+    <h3>Agent systems</h3>
+    <p>orchestration &middot; tool contracts &middot; state &middot; permissions &middot; human oversight</p>
+  </div>
+  <div class="cap">
+    <h3>Edge AI</h3>
+    <p>on-device runtimes &middot; quantization &middot; CPU/GPU/NPU trade-offs &middot; Android deployment</p>
+  </div>
+  <div class="cap">
+    <h3>Systems foundation</h3>
+    <p>C++ &middot; Linux &middot; Android framework &middot; AAOS &middot; embedded &amp; connectivity platforms</p>
+  </div>
+</div>
+
+<h2 class="log-head">The log <span class="streak">&#9656; {{ site.posts | size }} entries forged</span></h2>
+<p class="log-note">
+  One engineering artefact a day &mdash; code, benchmarks, diagrams,
+  decisions, failures. Substance over streaks.
+</p>
 
 <ul class="log-list">
   {% for post in site.posts %}
@@ -17,6 +49,7 @@ layout: default
     <span class="day">{% if post.day %}Day {{ post.day }}{% endif %}</span>
     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.status %}<span class="status-badge">{{ post.status }}</span>{% endif %}
   </li>
   {% endfor %}
 </ul>
