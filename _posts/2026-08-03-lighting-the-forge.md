@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Lighting the forge"
-day: 1
 date: 2026-08-03
 topics: [meta, commitment]
 status: meta
@@ -46,4 +45,4 @@ system architecture, LLM platform engineering, retrieval done properly,
 and the distributed-systems reality underneath AI products.** Expect
 diagrams, benchmarks, and honest failure reports.
 
-Day 1 is the easiest day. See you tomorrow.
+The first entry is the easiest one. See you tomorrow.
