@@ -1,8 +1,8 @@
-# ShashForge — daily AI engineering log
+# ShashForge — AI engineering log
 
 Live at **https://shashforge.dev** · Built with Jekyll · Hosted on GitHub Pages
 
-## Publish a new entry (daily, ~2 minutes)
+## Publish a new entry (~2 minutes)
 
 1. Copy `_drafts/TEMPLATE-daily-post.md` into `_posts/` and rename it
    `YYYY-MM-DD-short-slug.md` (e.g. `2026-08-05-eval-harness.md`).
