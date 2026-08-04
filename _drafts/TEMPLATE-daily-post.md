@@ -7,7 +7,7 @@ status: built   # built · benchmarked · designed · investigated · analysis �
 ---
 
 <!--
-DAILY WORKFLOW (takes ~2 minutes to publish):
+PUBLISH WORKFLOW (takes ~2 minutes):
 1. Copy this file into _posts/ and rename it: YYYY-MM-DD-short-slug.md
    e.g. _posts/2026-08-05-building-the-eval-harness.md
 2. Update title, date, status, topics above.
