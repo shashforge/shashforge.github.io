@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "YOUR TITLE HERE"
-day: 2            # increment this every day
 date: 2026-08-04  # today's date — must match the filename date
 topics: [topic-1, topic-2]
+status: built   # built · benchmarked · designed · investigated · analysis · failure-report
 ---
 
 <!--
 DAILY WORKFLOW (takes ~2 minutes to publish):
 1. Copy this file into _posts/ and rename it: YYYY-MM-DD-short-slug.md
-   e.g. _posts/2026-08-04-day-2-building-the-eval-harness.md
-2. Update title, day, date, topics above.
+   e.g. _posts/2026-08-05-building-the-eval-harness.md
+2. Update title, date, status, topics above.
 3. Write your entry below (delete this comment).
 4. Commit & push (or use GitHub web editor → Commit changes).
    GitHub Pages rebuilds automatically in ~1 minute.
