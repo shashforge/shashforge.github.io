@@ -6,40 +6,50 @@ permalink: /about/
 
 # About
 
-I'm **Shashi Shankar**. I build the layer where AI models meet production
-systems — the platforms, pipelines, and backend architecture that turn
-model capability into reliable product.
+## Who I am
 
-My focus areas: **applied AI engineering, AI platform architecture, agentic
-systems, LLM inference and integration, and the staff-level backend
-engineering that holds it all together.**
+I'm **Shashi Shankar** — 15+ years in software and systems engineering:
+C++, embedded systems, the Android framework (AOSP and AAOS), Bluetooth
+and Wi-Fi platform engineering, and automotive production environments,
+with contributions to LLVM along the way. Most of my career has been
+spent where software meets hardware and a retry loop doesn't fix failure.
 
-## Why this site exists
+## What I'm building now
 
-Reading about AI systems is easy. Building them daily is the hard part —
-and the only part that compounds. ShashForge is my public commitment:
-**one engineering log entry per day**, documenting what I designed, built,
-broke, benchmarked, or understood more deeply than yesterday.
+Production AI platforms, agent systems, evaluation infrastructure, and
+Edge AI deployment — the layer where models meet production systems and,
+increasingly, where they meet devices.
 
-The rules are simple:
+## Why this combination matters
 
-1. Ship an entry every day. Small is fine. Skipping is not.
-2. Write about real work — code, architecture, experiments, failures.
-3. Be concrete. Numbers, diagrams, and trade-offs beat opinions.
+AI systems don't fail at the model layer alone. They fail at interfaces,
+state, concurrency, memory, observability, thermal limits, lifecycle
+management, and operational control — exactly the places where embedded
+and platform engineering experience compounds. Very few people carry
+automotive-grade systems discipline into AI platform work. That's the
+gap I'm standing in, on purpose.
 
-## What I write about
+## The rules of this site
 
-- Agentic system design — orchestration, tool use, memory, evals
-- LLM platform engineering — serving, caching, cost, latency, observability
-- RAG and retrieval architecture done properly
-- Backend and distributed systems that AI workloads actually demand
-- Engineering leadership notes from building AI-enabled products
+1. One engineering artefact a day — code, a benchmark, a diagram, a
+   design decision, a failure analysis, or an implementation note.
+2. A substantial case study every week or two.
+3. Every entry is labelled honestly: built, benchmarked, designed,
+   investigated, or analysis. Commentary is never dressed up as
+   implementation.
+4. Numbers, diagrams, and trade-offs beat adjectives.
+
+## Evidence
+
+- [Projects](/projects/) — flagship builds, each shipping with
+  architecture notes, code, and measurements as they land
+- [GitHub](https://github.com/shashforge)
+- [The log](/) — the daily record
 
 ## Get in touch
 
 - Email: [shashishankar1687@gmail.com](mailto:shashishankar1687@gmail.com)
 - GitHub: [github.com/shashforge](https://github.com/shashforge)
-- LinkedIn: <em>(add your link)</em>
 
 If you're building serious AI products and need someone who thinks in
 systems, not demos — my inbox is open.
