@@ -4,6 +4,7 @@ title: "Lighting the forge"
 day: 1
 date: 2026-08-03
 topics: [meta, commitment]
+status: meta
 ---
 
 Today I bought **shashforge.dev** and lit the forge.
