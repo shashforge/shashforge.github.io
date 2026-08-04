@@ -31,8 +31,9 @@ gap I'm standing in, on purpose.
 
 ## The rules of this site
 
-1. One engineering artefact a day — code, a benchmark, a diagram, a
-   design decision, a failure analysis, or an implementation note.
+1. Every entry is an engineering artefact — code, a benchmark, a
+   diagram, a design decision, a failure analysis, or an implementation
+   note. They land as they're made, often several in a day.
 2. A substantial case study every week or two.
 3. Every entry is labelled honestly: built, benchmarked, designed,
    investigated, or analysis. Commentary is never dressed up as
@@ -44,7 +45,7 @@ gap I'm standing in, on purpose.
 - [Projects](/projects/) — flagship builds, each shipping with
   architecture notes, code, and measurements as they land
 - [GitHub](https://github.com/shashforge)
-- [The log](/) — the daily record
+- [The log](/) — the running record
 
 ## Get in touch
 
