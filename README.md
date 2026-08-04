@@ -5,8 +5,8 @@ Live at **https://shashforge.dev** · Built with Jekyll · Hosted on GitHub Page
 ## Publish a new entry (daily, ~2 minutes)
 
 1. Copy `_drafts/TEMPLATE-daily-post.md` into `_posts/` and rename it
-   `YYYY-MM-DD-day-N-short-slug.md` (e.g. `2026-08-04-day-2-eval-harness.md`).
-2. Edit the front matter: `title`, `day` (increment), `date`, `topics`.
+   `YYYY-MM-DD-short-slug.md` (e.g. `2026-08-05-eval-harness.md`).
+2. Edit the front matter: `title`, `date`, `status`, `topics`.
 3. Write the entry.
 4. Commit and push (or edit directly on github.com and hit **Commit changes**).
    GitHub Pages rebuilds automatically — live in about a minute.
