@@ -19,11 +19,13 @@ The system argued for in
 [the harness essay](/log/the-model-was-never-the-product/), turned into
 working code at
 [github.com/shashforge/agent-harness](https://github.com/shashforge/agent-harness):
-the executor state machine, tool contracts, failure taxonomy, and
-replayable transition trace, each pinned by a behavioral test. Next up:
-checkpoint persistence, an LLM-backed planner, and an eval harness.
-Decisions get recorded as ADRs, starting with
-[ADR-001](/log/adr-001-python-vs-cpp/).
+the executor state machine, tool contracts, failure taxonomy,
+append-only trace with [crash-resume and replay](/log/replay-is-the-feature/),
+golden-trace regression tests, and an
+[LLM planner](/log/the-model-shows-up/) behind the same callable —
+each pinned by behavioral tests. Next: the first live-model trace,
+published unedited, and context compaction. Decisions get recorded as
+ADRs, starting with [ADR-001](/log/adr-001-python-vs-cpp/).
 
 **Edge AI Runtime Benchmark** <span class="status-badge">designed</span>
 
