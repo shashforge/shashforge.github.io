@@ -23,9 +23,12 @@ the executor state machine, tool contracts, failure taxonomy,
 append-only trace with [crash-resume and replay](/log/replay-is-the-feature/),
 golden-trace regression tests, and an
 [LLM planner](/log/the-model-shows-up/) behind the same callable —
-each pinned by behavioral tests. Next: the first live-model trace,
-published unedited, and context compaction. Decisions get recorded as
-ADRs, starting with [ADR-001](/log/adr-001-python-vs-cpp/).
+each pinned by behavioral tests, plus
+[context compaction](/log/the-lens-not-the-eraser/) that shrinks the
+model's view without ever touching the record. Next: the first
+live-model trace, published unedited; the run kit already sits in the
+repo. Decisions get recorded as ADRs, starting with
+[ADR-001](/log/adr-001-python-vs-cpp/).
 
 **Edge AI Runtime Benchmark** <span class="status-badge">designed</span>
 
