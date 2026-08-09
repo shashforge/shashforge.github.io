@@ -42,3 +42,4 @@ on first setup.
 bundle install
 bundle exec jekyll serve   # http://localhost:4000
 ```
+Last build kicked manually on 2026-08-09 after the GitHub Actions outage on Aug 6 orphaned the queued deploy.
