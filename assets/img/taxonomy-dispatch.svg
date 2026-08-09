@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">
+<rect width="760" height="420" rx="10" fill="#0e0f12"/>
+<text x="24" y="36" fill="#d9dce1" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif" font-weight="600">The dispatch is the taxonomy</text>
+<text x="24" y="56" fill="#8b909a" font-size="11.5">one try pipeline; every branch of control flow is an except arm from errors.py</text>
+<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8b909a"/></marker></defs>
+<text x="40" y="92" fill="#f0a03c" font-size="12">try:</text>
+<rect x="40" y="108" width="200" height="46" rx="8" fill="#16181d" stroke="#26292f"/>
+<text x="140" y="128" fill="#d9dce1" font-size="11.5" text-anchor="middle">check_scopes()</text>
+<text x="140" y="144" fill="#8b909a" font-size="10" text-anchor="middle">the permission gate</text>
+<path d="M 140 154 L 140 170" fill="none" stroke="#8b909a" stroke-width="1.5" marker-end="url(#m)"/>
+<rect x="40" y="172" width="200" height="46" rx="8" fill="#16181d" stroke="#26292f"/>
+<text x="140" y="192" fill="#d9dce1" font-size="11.5" text-anchor="middle">_spend(tool)</text>
+<text x="140" y="208" fill="#8b909a" font-size="10" text-anchor="middle">the call budget</text>
+<path d="M 140 218 L 140 234" fill="none" stroke="#8b909a" stroke-width="1.5" marker-end="url(#m)"/>
+<rect x="40" y="236" width="200" height="46" rx="8" fill="#16181d" stroke="#26292f"/>
+<text x="140" y="256" fill="#d9dce1" font-size="11.5" text-anchor="middle">tool.fn(**args)</text>
+<text x="140" y="272" fill="#8b909a" font-size="10" text-anchor="middle">the work itself</text>
+<path d="M 140 282 L 140 298" fill="none" stroke="#8b909a" stroke-width="1.5" marker-end="url(#m)"/>
+<rect x="40" y="300" width="200" height="46" rx="8" fill="#16181d" stroke="#26292f"/>
+<text x="140" y="320" fill="#d9dce1" font-size="11.5" text-anchor="middle">_verify(result)</text>
+<text x="140" y="336" fill="#8b909a" font-size="10" text-anchor="middle">the verifier</text>
+<path d="M 140 362 L 140 382" fill="none" stroke="#3fb970" stroke-width="1.5" marker-end="url(#m)"/>
+<text x="152" y="378" fill="#3fb970" font-size="10.5">no exception → CHECKPOINT</text>
+<text x="320" y="92" fill="#f0a03c" font-size="12">except:</text>
+<rect x="320" y="106" width="400" height="40" rx="8" fill="#16181d" stroke="#ff7847" stroke-width="1.2"/>
+<text x="336" y="131" fill="#d9dce1" font-size="11.5">PermissionDenied</text>
+<text x="704" y="131" fill="#8b909a" font-size="10.5" text-anchor="end">escalate · never retry</text>
+<rect x="320" y="158" width="400" height="40" rx="8" fill="#16181d" stroke="#ff7847" stroke-width="1.2"/>
+<text x="336" y="183" fill="#d9dce1" font-size="11.5">BudgetExhausted</text>
+<text x="704" y="183" fill="#8b909a" font-size="10.5" text-anchor="end">escalate</text>
+<rect x="320" y="210" width="400" height="40" rx="8" fill="#16181d" stroke="#f0a03c" stroke-width="1.2"/>
+<text x="336" y="235" fill="#d9dce1" font-size="11.5">TransientToolError</text>
+<text x="704" y="235" fill="#8b909a" font-size="10.5" text-anchor="end">retry the same step</text>
+<rect x="320" y="262" width="400" height="40" rx="8" fill="#16181d" stroke="#f0a03c" stroke-width="1.2"/>
+<text x="336" y="287" fill="#d9dce1" font-size="11.5">PermanentToolError</text>
+<text x="704" y="287" fill="#8b909a" font-size="10.5" text-anchor="end">re-plan</text>
+<rect x="320" y="314" width="400" height="40" rx="8" fill="#16181d" stroke="#f0a03c" stroke-width="1.2"/>
+<text x="336" y="339" fill="#d9dce1" font-size="11.5">VerificationFailure</text>
+<text x="704" y="339" fill="#8b909a" font-size="10.5" text-anchor="end">retry within budget, then escalate</text>
+<text x="320" y="392" fill="#3fb970" font-size="10.5">golden trace unchanged · 10/10 transitions · 35 tests green</text>
+</svg>
