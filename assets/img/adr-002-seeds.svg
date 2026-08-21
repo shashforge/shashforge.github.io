@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace">
+<rect width="760" height="400" rx="10" fill="#0e0f12"/>
+<text x="24" y="36" fill="#d9dce1" font-size="16" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif" font-weight="600">ADR-002: seeds over Hypothesis</text>
+<text x="24" y="56" fill="#8b909a" font-size="11.5">three ways to generate behavior nobody chose; one argument settled it</text>
+<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#8b909a"/></marker></defs>
+<rect x="36" y="84" width="212" height="126" rx="8" fill="#16181d" stroke="#26292f" stroke-width="1"/>
+<text x="50" y="108" fill="#d9dce1" font-size="12">A  Hypothesis</text>
+<text x="50" y="132" fill="#8b909a" font-size="10.5">strategies + @given</text>
+<text x="50" y="152" fill="#8b909a" font-size="10.5">shrinker on failure</text>
+<text x="50" y="172" fill="#8b909a" font-size="10.5">new dep, CI cache</text>
+<text x="50" y="192" fill="#8b909a" font-size="10.5">reader needs fluency</text>
+<rect x="272" y="84" width="212" height="126" rx="8" fill="#16181d" stroke="#3fb970" stroke-width="1.4"/>
+<text x="286" y="108" fill="#f0a03c" font-size="12">B  seeded stdlib</text>
+<text x="286" y="132" fill="#d9dce1" font-size="10.5">random.Random(seed)</text>
+<text x="286" y="152" fill="#d9dce1" font-size="10.5">parametrize over seeds</text>
+<text x="286" y="172" fill="#d9dce1" font-size="10.5">no dep, CI untouched</text>
+<text x="286" y="192" fill="#d9dce1" font-size="10.5">one integer reproduces</text>
+<rect x="508" y="84" width="212" height="126" rx="8" fill="#16181d" stroke="#26292f" stroke-width="1"/>
+<text x="522" y="108" fill="#d9dce1" font-size="12">C  both</text>
+<text x="522" y="132" fill="#8b909a" font-size="10.5">Hypothesis for depth</text>
+<text x="522" y="152" fill="#8b909a" font-size="10.5">seeds for the CI lane</text>
+<text x="522" y="172" fill="#8b909a" font-size="10.5">two mechanisms</text>
+<text x="522" y="192" fill="#8b909a" font-size="10.5">for one job</text>
+<text x="378" y="230" fill="#3fb970" font-size="10.5" text-anchor="middle">chosen</text>
+<path d="M 378 236 L 378 256" fill="none" stroke="#3fb970" stroke-width="1.5" marker-end="url(#m)"/>
+<rect x="60" y="260" width="640" height="52" rx="8" fill="#16181d" stroke="#f0a03c" stroke-width="1.2"/>
+<text x="380" y="282" fill="#d9dce1" font-size="11.5" text-anchor="middle">the failure to defend against is a reader not trusting the test;</text>
+<text x="380" y="300" fill="#d9dce1" font-size="11.5" text-anchor="middle">every framework layer between reader and executor costs trust</text>
+<text x="36" y="342" fill="#8b909a" font-size="10.5">revisit when: a failing seed's trace is too large to read,</text>
+<text x="36" y="358" fill="#8b909a" font-size="10.5">or the worlds need structure the hand-rolled generators make ugly</text>
+<text x="36" y="378" fill="#8b909a" font-size="10.5">then: Hypothesis as an extra dev dependency, kept out of the default CI job</text>
+</svg>
